@@ -15,7 +15,7 @@ gem 'rails_12factor', group:[:production] #只有在上線環境用到的插件
 gem 'faker'
 
 # To use ActiveModel has_secure_password
-gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '>= 3.1.2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

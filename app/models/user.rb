@@ -9,5 +9,4 @@ class User < ActiveRecord::Base
   # 檢查獨特性，不分大小寫
   validates :email, format:{ with: /\A[^@]+@[^@]+\z/ }, uniqueness: { case_sensitive: false}
 
-
 end
