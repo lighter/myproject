@@ -11,6 +11,12 @@ gem 'sqlite3', group:[:development, :test] #只有在開發及測試環境用到
 gem 'pg', group:[:production] #只有在上線環境用到的插件
 gem 'rails_12factor', group:[:production] #只有在上線環境用到的插件
 
+# Add fake data
+gem 'faker'
+
+# To use ActiveModel has_secure_password
+gem 'bcrypt-ruby', '~> 3.0.0'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
